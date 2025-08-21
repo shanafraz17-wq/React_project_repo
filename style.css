@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+header {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+section h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
